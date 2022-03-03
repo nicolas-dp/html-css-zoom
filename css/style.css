@@ -20,6 +20,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body a{
+    text-decoration: none;
+}
+
+body i{
+    color: white;
+    text-decoration: none;
+}
+
 .container{
     /* width: 1400px; */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
     /* margin: auto; */
@@ -81,12 +90,9 @@ footer{
     align-items: center;
 }
 
-.menu span,i{
-    color: white;
-    
-}
 
 .text-icon{
+    color: white;
     font-size: 12px;
     padding-top: 0.5rem;
     align-self: center;
@@ -100,6 +106,7 @@ footer{
 }
 
 .fa-chevron-up{
+    color: white;
     font-size: 10px;
 }
 
@@ -120,6 +127,7 @@ footer{
 }
 
 .nav-icon{
+    color: white;
     font-size: 25px;
 }
 
