@@ -30,7 +30,7 @@ body i{
 }
 
 .container{
-    /* width: 1400px; */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
+    /* width: 1400px;  */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
     /* margin: auto; */
     display: flex;
     gap: 7px;
@@ -139,3 +139,13 @@ footer{
 .green{
     color: var(--share-color);
 }
+
+
+
+/* BONUS UN PO' DI HOVER */
+
+
+i:hover {
+    color: var(--share-color);
+}
+
