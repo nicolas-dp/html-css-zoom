@@ -109,7 +109,7 @@ footer{
     padding: 2rem;
 }
 
-.right-option>span{
+.right-option>a{
     color: var(--end-color);
 }
 
@@ -120,7 +120,7 @@ footer{
 }
 
 .nav-icon{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
