@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --footernav-color: rgba(34, 34, 34, 1);
+    --share-color: rgba(75, 200, 0, 1);
+    --end-color: rgba(226, 21, 15, 1);
+    --bgend: rgba(74, 74, 74, 1);
+
+
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option{
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.icon{
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: var(--bgend);
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+}
+
+.speak-icon{
+    margin-right: 2rem;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+
+.size-icon{
+    padding: 4px 7px;
+    font-size: 13px;
+}
