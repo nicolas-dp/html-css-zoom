@@ -21,18 +21,17 @@ body {
 }
 
 .container{
-    display: flex;
     /* width: 1400px; */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
     /* margin: auto; */
+    display: flex;
+    gap: 7px;
     justify-content: center;
-    
     padding-top: 4rem;
     flex-wrap: wrap;
 }
 
 .img-user{
     position: relative;
-    padding: 5px;
 
 }
 
@@ -63,7 +62,7 @@ body {
 
 .name-icon{
     position: absolute;
-    bottom: 6.7%;
+    bottom: 3%;
     color: white;
     background-color: var(--bgname);
     padding: 2px 2px;
@@ -72,7 +71,6 @@ body {
 
 footer{
     margin-top: 1rem;
-    height: 50px;
     background-color: var(--footernav-color);
 }
 
@@ -80,4 +78,56 @@ footer{
 .menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.menu span,i{
+    color: white;
+    
+}
+
+.text-icon{
+    font-size: 12px;
+    padding-top: 0.5rem;
+    align-self: center;
+}
+
+
+.left-option, .primary-option{
+    display: flex;
+    gap: 18px;
+    margin: 1rem;
+}
+
+.fa-chevron-up{
+    font-size: 10px;
+}
+
+
+.right-option{
+    background-color: var(--bgend);
+    padding: 2rem;
+}
+
+.right-option>span{
+    color: var(--end-color);
+}
+
+.col-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icon{
+    font-size: 30px;
+}
+
+
+.chevron{
+    align-self: center;
+}
+
+.green{
+    color: var(--share-color);
 }
