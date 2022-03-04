@@ -31,17 +31,16 @@ body i{
 }
 
  main{
-     height: calc(100%- 80px);
+     height: calc(100% - 80px);
      overflow: hidden;
 }
 
 .container{
-    /* width: 1400px;  */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
-    /* margin: auto; */
+    height: 100vh;
     display: flex;
     gap: 7px;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     flex-wrap: wrap;
     overflow-y: auto;
 
@@ -53,6 +52,7 @@ body i{
 }
 
 .option{
+    height: 30px;
     position: relative;
     margin-top: 0.5rem;
 }
