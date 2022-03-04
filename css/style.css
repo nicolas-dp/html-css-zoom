@@ -18,6 +18,7 @@
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body a{
@@ -29,6 +30,11 @@ body i{
     text-decoration: none;
 }
 
+ main{
+     height: calc(100%- 80px);
+     overflow: hidden;
+}
+
 .container{
     /* width: 1400px;  */ /* Blocca le finestre anche riducendo la dimensione di vw nel browser */
     /* margin: auto; */
@@ -37,6 +43,8 @@ body i{
     justify-content: center;
     padding-top: 4rem;
     flex-wrap: wrap;
+    overflow-y: auto;
+
 }
 
 .img-user{
@@ -79,6 +87,8 @@ body i{
 }
 
 footer{
+    height: 100%;
+    min-width: 950px;
     margin-top: 1rem;
     background-color: var(--footernav-color);
 }
